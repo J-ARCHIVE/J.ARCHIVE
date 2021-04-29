@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+body {
+        font-family: 'Philosopher', sans-serif;
+        
+}
+/*reset*/
+* {margin: 0; padding: 0; font-size: 13px;}
+a {color: #000; text-decoration: none;}
+li {list-style: none;}
+.clearfix::before, .clearfix::after {content: ''; display: block; clear: both;}
+
+/* warp */
+#warp {width: 1000px; margin: 0 auto;}
+
+/* header */
+#header h1 {float: left; padding: 15px 0 10px;}
+#header h1 img {width: 140px;}
+#header .nav {float: right; left: 0; background: #fff;}
+#header .nav li {position: relative; float: left; width: 140px; text-align: center;}
+#header .nav li a {display: block; font-size: 20px; font-weight: no; padding: 24px 20px 20px 20px;}
+#header .nav li a:hover {background: #ccc;}
+#header .nav li ul.submenu {display: none; position: absolute; left; 0; top: 67px; z-index: 100;}
+#header .nav li ul.submenu li a {padding: 10px; background: #fff;}
+#header .nav li ul.submenu li a:hover {background: #ccc;}
+
+/* banner */
+#banner {height: 389px; overflow: hidden;}
+#banner img {width: 100%; display: block;}
+
+/* 좌우 */
+.slideList {position: relative; width: 6000px; z-index: 60;}
+.slideList .slideImg {position: relative; width:1000px; float: left;}
+
+/*명언 및 문구*/
+#contents {margin-top: 19px; height: 128px;}
+#contents img {width: 100%}
+
+/*mockup*/
+#mockup {margin-top: 19px;}
+.best figure {float: left; width: 32%; margin-right: 2%;}
+.best figure img{width: 100%}
+.best figure:last-child{margin-right: 0;}
+
+/*footer*/
+#footer {padding: 100px 350; background: #fff; margin-top: 50;}
+#footer h2 {float: right; width: 70%; margin-right: 7%;}
+#footer h2 img {width: 105px; margin-top: 13%;}
+#footer .foot {float: right; padding-right: 0px;}
+#footer .foot ul {padding-bottom: 0px;}
+#footer .foot ul li {display: inline;}
+#footer .foot ul li a {color: #000; padding-right: 10px;}
+#footer .foot address {font-style: normal; color: #ccc;}
